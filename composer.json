@@ -1,0 +1,19 @@
+{
+    "name": "websupportdesk/module-popup-seatch",
+    "description": "Magento 2 module scaffold for WebSupportDesk popup search",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "WebSupportDesk\\PopUpSeatch\\": ""
+        }
+    }
+}
+

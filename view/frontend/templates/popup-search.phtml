@@ -1,0 +1,31 @@
+<?php
+/**
+ * @var \WebSupportDesk\PopUpSeatch\Block\PopupSearch $block
+ */
+?>
+<div id="wsd-popup-search" class="wsd-popup-search" aria-hidden="true">
+    <div class="wsd-popup-search__backdrop" data-role="popup-backdrop"></div>
+    <div class="wsd-popup-search__panel" role="dialog" aria-modal="true" aria-label="<?= $block->escapeHtmlAttr(__('Search')) ?>">
+        <button type="button" class="wsd-popup-search__close" data-role="popup-close" aria-label="<?= $block->escapeHtmlAttr(__('Close')) ?>">
+            &times;
+        </button>
+        <label class="wsd-popup-search__label" for="wsd-popup-search-input"><?= $block->escapeHtml(__('Search products')) ?></label>
+        <input id="wsd-popup-search-input"
+               class="wsd-popup-search__input"
+               type="text"
+               autocomplete="off"
+               placeholder="<?= $block->escapeHtmlAttr(__('Type at least 2 characters...')) ?>"/>
+        <div id="wsd-popup-search-results" class="wsd-popup-search__results"></div>
+    </div>
+</div>
+<script type="text/x-magento-init">
+{
+    "*": {
+        "WebSupportDesk_PopUpSeatch/js/popup-search": {
+            "suggestUrl": "<?= $block->escapeJs($block->getSuggestUrl()) ?>",
+            "placeholderImage": "<?= $block->escapeJs($block->getPlaceholderImageUrl()) ?>"
+        }
+    }
+}
+</script>
+
