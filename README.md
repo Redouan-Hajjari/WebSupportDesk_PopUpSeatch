@@ -25,3 +25,12 @@ Je kunt nu hierop bouwen met bijvoorbeeld:
 - controller of AJAX endpoint voor suggesties
 - admin config in `etc/adminhtml/system.xml` (aan/uit, max suggesties, etc.)
 
+---
+
+## Donatie
+
+Vind je deze module nuttig? Een vrijwillige bijdrage wordt gewaardeerd:
+
+- **IBAN:** `NL12 BUNQ 2150 2834 33`
+- **Tenaamstelling:** `R.Hajjari`
+
