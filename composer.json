@@ -3,6 +3,12 @@
     "description": "Magento 2 module scaffold for WebSupportDesk popup search",
     "type": "magento2-module",
     "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Redouan Hajjari",
+            "email": "redouanhajjari@gmail.com"
+        }
+    ],
     "license": [
         "OSL-3.0",
         "AFL-3.0"

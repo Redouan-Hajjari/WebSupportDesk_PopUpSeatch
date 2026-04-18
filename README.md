@@ -34,3 +34,7 @@ Vind je deze module nuttig? Een vrijwillige bijdrage wordt gewaardeerd:
 - **IBAN:** `NL12 BUNQ 2150 2834 33`
 - **Tenaamstelling:** `R.Hajjari`
 
+## Auteur
+
+Redouan Hajjari — [redouanhajjari@gmail.com](mailto:redouanhajjari@gmail.com)
+
